@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(
-  <h1>Startup Valuation Calculator!</h1>,
-  document.getElementById('app')
-);
+import Header from './components/Header';
+
+class Main extends React.Component {
+  render() {
+    return <Header />;
+  }
+}
+
+ReactDOM.render(<Main />, document.getElementById('app'));
