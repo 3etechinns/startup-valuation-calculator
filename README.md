@@ -1,2 +1,3 @@
-# startup-valuation-calculator
-A simple app for calculating the value of your startup
+# Startup Valuation Calculator
+
+A simple React app for calculating the value of your startup.
